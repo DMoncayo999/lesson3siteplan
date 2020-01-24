@@ -1,0 +1,87 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color:#ffff60;
+}
+header img {float: left; margin-right: 10px; width: 50px;}
+header h1 {margin: 0;font-size: 1.3rem;font-family: McLaren; color:#af4642;}
+header h2 {margin: 0; font-weight: normal; font-size: 1rem;font-family: Fira Sans;}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color:#af4642;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    background-color:#fca762;
+    color:white;
+}
+nav ul li.active a {
+    background-color:#28191b;
+    color: #fff;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+main img {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+.sun {
+    width: 150px;
+}
+/*----------- FOOTER --------------*/
+footer {
+    background-color:#ffff60;
+    padding: .5rem 2%;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer span {
+    color: rgb(168, 77, 35);
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
