@@ -20,10 +20,11 @@
     
     
     /*----------- MAIN --------------*/
+    /*resize images*/
     .domainimg {width: 600px}
     .color1 {width: 600px;}
     .color2 {width: 500px;margin-bottom: 20px;}
-    
+    .typetable {width: 400px; margin-bottom: 5px;}
     
     /*----------- FOOTER --------------*/
     
