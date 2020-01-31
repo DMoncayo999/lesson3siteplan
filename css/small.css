@@ -63,7 +63,7 @@ main img {
     width: 100%;
     height: auto;
 }
-
+main h2 {color:#fca762;}
 
 .sun {width: 150px;}
 .color2 {margin-bottom: 20px;}
